@@ -78,6 +78,6 @@ app.delete("/mytodos/:id", async (req, res) => {
   }
 });
 
-app.listen(7000, () => {
-  console.log("Server has started on port 7000");
-});
+//  port
+const port = process.env.PORT || 5000;
+app.listen(port, () => console.log(`Server has started on port ${port}...`));
