@@ -1,5 +1,5 @@
-CREATE DATABASE mytodos;
+CREATE DATABASE mytodoss;
 
 
-CREATE TABLE mytodo(mytodo_id SERIAL PRIMARY KEY,
-                                             description VARCHAR(255));
+CREATE TABLE todos(mytodo_id SERIAL PRIMARY KEY,
+                                            description VARCHAR(255));
